@@ -11,7 +11,7 @@ if sys.version_info < (3, 7):
     ]
 else:
     INSTALL_REQUIRES = [
-        'Django>=1.5',
+        'Django>=3.2',
         'packaging>=21.3'
     ]
     
@@ -37,8 +37,8 @@ setup(
     long_description=read('README.rst') + '\n\n' + read('CHANGELOG.rst'),
     author='Bernhard Janetzki',
     author_email='boerni@gmail.com',
-    url='https://github.com/ierror/django-js-reverse',
-    download_url='http://pypi.python.org/pypi/django-js-reverse/',
+    url='https://github.com/Brainomix/django-js-reverse',
+    download_url='https://github.com/Brainomix/django-js-reverse/',
     packages=find_packages(),
     package_data={
         'django_js_reverse': [
